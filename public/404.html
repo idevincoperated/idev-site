@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0; url=/idev.inc/" />
+    <title>IDEV INC</title>
+    <script>
+      // Preserve the intended path so the SPA router can take over after redirect.
+      sessionStorage.setItem('idev-redirect-path', location.pathname + location.search + location.hash);
+      location.replace('/idev.inc/');
+    </script>
+  </head>
+  <body></body>
+</html>
